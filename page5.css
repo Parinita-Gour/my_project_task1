@@ -1,0 +1,187 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+}
+
+.container-201 {
+    display: flex;
+    width: 100%;
+}
+
+
+.sidebar-202 {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logout-btn-203 {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.nav-204 {
+    margin-top: 20px;
+}
+
+.nav-list-205 {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-item-206 {
+    margin-bottom: 10px;
+}
+
+.nav-link-207 {
+    text-decoration: none;
+    color: #333;
+}
+
+.main-content-208 {
+    /* flex: 1; */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-209 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-210 {
+    margin: 0;
+}
+
+.header-actions-211 {
+    display: flex;
+    align-items: center;
+}
+
+.add-vendor-btn-212 {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.search-input-213,
+.date-input-214 {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.invoices-section-215 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.invoices-table-216 {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-head-217 {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.table-row-218 {
+    background-color: #f9f9f9;
+}
+
+.table-cell-219 {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.status-due-230 {
+    color: red;
+}
+
+.table-actions-231 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.download-selected-btn-232,
+.mark-paid-btn-233 {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.invoice-details-234 {
+    margin-top: 20px;
+}
+
+.details-summary-235 {
+    margin-bottom: 20px;
+}
+
+.invoice-title-236 {
+    margin: 0;
+}
+
+.download-invoice-btn-237 {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.comments-section-241 {
+    margin-bottom: 20px;
+}
+
+.comments-label-242 {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.comments-textarea-243 {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.save-btn-244 {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.mark-actions-245 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mark-paid-btn-246,
+.mark-due-btn-247 {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
