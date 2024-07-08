@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="./login.css">
     <link rel="stylesheet" href="./page2.css">
     <link rel="stylesheet" href="./page3.css">
-    <link rel="stylesheet" href="./page4.css">
-    <link rel="stylesheet" href="./page5.css">
+    <!-- <link rel="stylesheet" href="./page4.css"> -->
+    <!-- <link rel="stylesheet" href="./page5.css"> -->
 </head>
 <body>
+    <div class="container-main">
     <div class="login-container">
         <div class="login-header">
-            <img src="./Data dashboard.jpg" alt="Dashboard Image">
+            <img src="./Data dashboard.png" alt="Dashboard Image">
             <h2>Login</h2>
         </div>
         <form>
@@ -267,229 +268,61 @@
                     </tbody>
                 </table>
             </div>
-            <div class="recent-activities">
-                <h2>Recents</h2>
-                <ul>
-                    <li>
-                        <p>₹ 20,000</p>
-                        <p>02 Invoices</p>
-                        <p>From Apple Inc.</p>
-                    </li>
-                   
-                </ul>
+            
+        </div>
+        <div class="recent-transactions">
+            <h2>Recents</h2>
+            <div class="transaction">
+                <div class="dot"></div>
+                <div class="details">
+                    <div class="date">23 Jun, 2023</div>
+                    <div class="amount">₹ 20,000 <span class="invoices">02 Invoices</span></div>
+                    <div class="from">From Apple Inc.</div>
+                </div>
+            </div>
+            <div class="transaction">
+                <div class="dot"></div>
+                <div class="details">
+                    <div class="date">22 Jun, 2023</div>
+                    <div class="amount">₹ 10,000 <span class="invoices">01 Invoices</span></div>
+                    <div class="from">From Google LLC</div>
+                </div>
+            </div>
+            <div class="transaction">
+                <div class="dot"></div>
+                <div class="details">
+                    <div class="date">21 Jun, 2023</div>
+                    <div class="amount">₹ 60,000 <span class="invoices">04 Invoices</span></div>
+                    <div class="from">From Samsung Inc.</div>
+                </div>
+            </div>
+            <div class="transaction">
+                <div class="dot"></div>
+                <div class="details">
+                    <div class="date">21 Jun, 2023</div>
+                    <div class="amount">₹ 30,000 <span class="invoices">03 Invoices</span></div>
+                    <div class="from">From Apple Inc.</div>
+                </div>
+            </div>
+            <div class="transaction">
+                <div class="dot"></div>
+                <div class="details">
+                    <div class="date">20 Jun, 2023</div>
+                    <div class="amount">₹ 20,000 <span class="invoices">02 Invoices</span></div>
+                    <div class="from">From Samsung Inc.</div>
+                </div>
+            </div>
+            <div class="transaction">
+                <div class="dot"></div>
+                <div class="details">
+                    <div class="date">20 Jun, 2023</div>
+                    <div class="amount">₹ 10,000 <span class="invoices">01 Invoices</span></div>
+                    <div class="from">From Google LLC</div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="main-container-invoices">
-        <div class="side-menu-invoices">
-            <div class="logo-section-invoices">
-                <h1>WF</h1>
-                <img src="./image123.png" alt="Logo">
-            </div>
-            <ul>
-                <li><a href="#">My Dashboard</a></li>
-                <li><a href="#">All Invoices</a></li>
-            </ul>
-        </div>
-        <div class="content-invoices">
-            <div class="top-bar-invoices">
-                <h2>All Invoices</h2>
-                <button class="logout-button-invoices">Logout</button>
-            </div>
-            <div class="invoice-tabs-invoices">
-                <button class="tab-button-invoices active">All</button>
-                <button class="tab-button-invoices">Deleted</button>
-            </div>
-            <div class="invoice-table-container-invoices">
-                <table class="invoice-table-invoices">
-                    <thead>
-                        <tr>
-                            <th>Invoice Name</th>
-                            <th>Amount</th>
-                            <th>Actions</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Apple<br>Invoice #1122</td>
-                            <td>₹ 80,000</td>
-                            <td class="action-buttons-invoices">
-                                <button class="edit-button-invoices">Edit</button>
-                                <button class="delete-button-invoices">Delete</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Samsung<br>Invoice #1123</td>
-                            <td>₹ 80,000</td>
-                            <td class="action-buttons-invoices">
-                                <button class="edit-button-invoices">Edit</button>
-                                <button class="delete-button-invoices">Delete</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Google<br>Invoice #1124</td>
-                            <td>₹ 80,000</td>
-                            <td class="action-buttons-invoices">
-                                <button class="edit-button-invoices">Edit</button>
-                                <button class="delete-button-invoices">Delete</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Apple<br>Invoice #1123</td>
-                            <td>₹ 80,000</td>
-                            <td class="action-buttons-invoices">
-                                <button class="edit-button-invoices">Edit</button>
-                                <button class="delete-button-invoices">Delete</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Google<br>Invoice #1124</td>
-                            <td>₹ 80,000</td>
-                            <td class="action-buttons-invoices">
-                                <button class="edit-button-invoices">Edit</button>
-                                <button class="delete-button-invoices">Delete</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Samsung<br>Invoice #1123</td>
-                            <td>₹ 80,000</td>
-                            <td class="action-buttons-invoices">
-                                <button class="edit-button-invoices">Edit</button>
-                                <button class="delete-button-invoices">Delete</button>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-    <div class="main-container-121">
-        <aside class="sidebar-122">
-            <div class="sidebar-header-123">
-                <button class="logout-btn-124">Logout</button>
-            </div>
-            <nav class="nav-menu-125">
-                <ul class="nav-list-126">
-                    <li class="nav-item-127"><a href="#" class="nav-link-128">Dashboard</a></li>
-                    <li class="nav-item-127"><a href="#" class="nav-link-128">Invoices</a></li>
-                    <li class="nav-item-127"><a href="#" class="nav-link-128">Vendors</a></li>
-                </ul>
-            </nav>
-        </aside>
-        <main class="content-129">
-            <header class="content-header-130">
-                <h1 class="vendor-title-131">Vendors / Apple</h1>
-                <button class="add-vendor-btn-132">Add Vendor</button>
-                <input type="search" class="search-input-133" placeholder="Search by name or invoice...">
-                <input type="date" class="date-input-134">
-            </header>
-            <section class="invoice-section-135">
-                <table class="invoice-table-136">
-                    <thead>
-                        <tr class="table-header-137">
-                            <th class="header-cell-138">Invoice details</th>
-                            <th class="header-cell-138">Submission date</th>
-                            <th class="header-cell-138">Due date</th>
-                            <th class="header-cell-138">Amount</th>
-                            <th class="header-cell-138">Status</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        
-                        <tr class="invoice-row-139">
-                            <td class="invoice-detail-140">
-                                <input type="checkbox" class="invoice-checkbox-141">
-                                <span class="invoice-name-142">iPhone 14</span>
-                                <span class="invoice-number-143">Invoice #1122</span>
-                            </td>
-                            <td class="invoice-submission-144">11 Apr, 2023</td>
-                            <td class="invoice-due-145">22 Jul, 2023</td>
-                            <td class="invoice-amount-146">₹ 80,000</td>
-                            <td class="invoice-status-147 due-status-148">Due</td>
-                        </tr>
-                        <tr class="invoice-row-139">
-                            <td class="invoice-detail-140">
-                                <input type="checkbox" class="invoice-checkbox-141">
-                                <span class="invoice-name-142">iPhone SE</span>
-                                <span class="invoice-number-143">Invoice #1123</span>
-                            </td>
-                            <td class="invoice-submission-144">10 Apr. 2023</td>
-                            <td class="invoice-due-145">20 Jul. 2023</td>
-                            <td class="invoice-amount-146">₹ 80,000</td>
-                            <td class="invoice-status-147 due-status-148">Due</td>
-                        </tr>
-                        <tr class="invoice-row-139">
-                            <td class="invoice-detail-140">
-                                <input type="checkbox" class="invoice-checkbox-141">
-                                <span class="invoice-name-142">Mac Mini</span>
-                                <span class="invoice-number-143">Invoice #1124</span>
-                            </td>
-                            <td class="invoice-submission-144">9 Apr. 2023</td>
-                            <td class="invoice-due-145">18 Jul. 2023</td>
-                            <td class="invoice-amount-146">₹ 80,000</td>
-                            <td class="invoice-status-147 due-status-148">Due</td>
-                        </tr>
-                        <tr class="invoice-row-139">
-                            <td class="invoice-detail-140">
-                                <input type="checkbox" class="invoice-checkbox-141">
-                                <span class="invoice-name-142">iPhone 13 pro</span>
-                                <span class="invoice-number-143">Invoice #1123</span>
-                            </td>
-                            <td class="invoice-submission-144">10 Apr. 2023</td>
-                            <td class="invoice-due-145">20 Jul. 2023</td>
-                            <td class="invoice-amount-146">₹ 80,000</td>
-                            <td class="invoice-status-147 due-status-148">Due</td>
-                        </tr>
-                        <tr class="invoice-row-139">
-                            <td class="invoice-detail-140">
-                                <input type="checkbox" class="invoice-checkbox-141">
-                                <span class="invoice-name-142">Macbook air</span>
-                                <span class="invoice-number-143">Invoice #1124</span>
-                            </td>
-                            <td class="invoice-submission-144">9 Apr. 2023</td>
-                            <td class="invoice-due-145">18 Jul. 2023</td>
-                            <td class="invoice-amount-146">₹ 80,000</td>
-                            <td class="invoice-status-147 due-status-148">Due</td>
-                        </tr>
-                        <tr class="invoice-row-139">
-                            <td class="invoice-detail-140">
-                                <input type="checkbox" class="invoice-checkbox-141">
-                                <span class="invoice-name-142">iPhone 12 mini</span>
-                                <span class="invoice-number-143">Invoice #1123</span>
-                            </td>
-                            <td class="invoice-submission-144">10 Apr. 2023</td>
-                            <td class="invoice-due-145">20 Jul. 2023</td>
-                            <td class="invoice-amount-146">₹ 80,000</td>
-                            <td class="invoice-status-147 due-status-148">Due</td>
-                        </tr>
-                      
-                    </tbody>
-                </table>
-                <div class="invoice-actions-149">
-                    <button class="download-selected-btn-150">Download Selected</button>
-                    <button class="mark-paid-btn-151">Mark selected as Paid</button>
-                </div>
-            </section>
-            <aside class="invoice-details-152">
-                <div class="invoice-summary-153">
-                    <h2 class="invoice-title-154">Invoice: #1122</h2>
-                    <button class="download-invoice-btn-155">Download Invoice</button>
-                    <p class="submission-date-156">Submission Date: 22 Jun, 2023</p>
-                    <p class="invoice-detail-157">Invoice Detail: iPhone 14 Invoice</p>
-                    <p class="invoice-amount-158">Invoice Amount: 80,000</p>
-                </div>
-                <div class="invoice-comments-159">
-                    <label for="comments" class="comments-label-160">Comments</label>
-                    <textarea id="comments" class="comments-textarea-161" placeholder="Add comments here..."></textarea>
-                    <button class="save-btn-162">Save</button>
-                </div>
-                <div class="mark-invoice-163">
-                    <button class="mark-as-paid-btn-164">Mark as Paid</button>
-                    <button class="mark-as-due-btn-165">Mark as Due</button>
-                </div>
-            </aside>
-        </main>
-    </div>
+</div>
 
     
 </body>
