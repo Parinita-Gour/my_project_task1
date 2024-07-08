@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f7f8fa;
+    width: 100%;
 }
 .main-container {
     display: flex;
@@ -160,4 +161,50 @@ th {
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     margin-bottom: 10px;
+}.recent-transactions {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.transaction {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 50%;
+    margin-right: 10px;
+    position: absolute;
+    left: 0;
+}
+
+.details {
+    margin-left: 20px;
+}
+
+.date, .amount, .from {
+    font-size: 0.9em;
+}
+
+.amount {
+    font-weight: bold;
+}
+
+.invoices {
+    font-weight: normal;
+    font-size: 0.8em;
+    color: #888;
 }
